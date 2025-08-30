@@ -71,8 +71,32 @@
                 <br>
                 <br>
                 📍 Somos un negocio local, con envio a todo México, y estamos orgullosos de ofrecer creatividad, calidad y un trato cercano para cada cliente. </p>
-			<button class="banner__boton">Contactanos</button>
+			<button class="banner__button"><a class="button" href="#form">Contactanos</a></button>
 		</div>
     </div>
+    <hr>
+    <div class="form" id="form">
+    <h3 class="form__subtitle">Mandanos un mensaje!</h3>
+    <form class="form__container">
+        <div class="form__section">
+            <label class="form__label" for="nombre">Nombre:</label>
+            <input class="form__input" type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form__section">
+            <label class="form__label" for="gmail">Gmail:</label>
+            <input class="form__input" type="email" id="gmail" name="gmail" pattern=".+@gmail\.com" required>
+        </div>
+        <div class="form__section">
+            <label class="form__label" for="telefono">Número de teléfono:</label>
+            <input class="form__input" type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+        </div>
+        <div class="form__section">
+            <label class="form__label" for="mensaje">Mensaje:</label>
+            <textarea class="form__input" id="mensaje" name="mensaje" rows="2" required></textarea>
+        </div>
+        <button class="form__button" type="submit">Enviar</button>
+    </form>
+</div>
+
 </body>
 </html>
