@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-        <header class="header__nav">
+    <header class="header__nav">
         <div>
             <a class="nav__logo" href="#">ATG</a>
         </div>
@@ -35,7 +35,8 @@
             <p class="main_subtitle">Playeras y más</p>
         </div>
     </main>
-    <h2 class="subtitle">Conoce nuestro trabajo</h2>
+    <h2 class="subtitle">Ve nuestros productos</h2>
+    <h3 class="anuncio">El catalogo completo se agrega pronto</h3>
     <div class="content">
         <div class="content__img">
             <div class="card" style="background-image: url('/img/img_product1.jpg');">
@@ -74,74 +75,17 @@
 			<button class="banner__button"><a class="button" href="#form">Contactanos</a></button>
 		</div>
     </div>
-    <hr>
-    <div class="table">
-        <h1 class="table__title">Precios</h1>
-        <table class="table__container">
-            <thead class="table__header">
-                <tr>
-                    <th>Producto</th>
-                    <th>Precio</th>
-                    <th>Descripción</th>
-                </tr>
-            </thead>
-            <tbody class="table__body">
-                <tr>
-                    <td>Playera Personalizada</td>
-                    <td>$190 MXN</td>
-                    <td>Playera de algodón 100% personalizada con tu diseño o alguno de nuestro catálogo</td>
-                </tr>
-                    <tr>
-                    <td>Sudadera Personalizada</td>
-                    <td>$350 MXN</td>
-                    <td>Sudadera de algodón 100% personalizada con tu diseño o alguno de nuestro catálogo</td>
-                </tr>
-                <tr>
-                    <td>Taza Personalizada</td>
-                    <td>$80 MXN</td>
-                    <td>Taza de cerámica 100% personalizada con tu diseño o alguno de nuestro catálogo</td>
-                </tr>
-                <tr>
-                    <td>Tarro Personalizado</td>
-                    <td>$150 MXN</td>
-                    <td>Tarro 100% personalizado con tu diseño o alguno de nuestro catálogo</td>
-                </tr>
-                <tr>
-                    <td>Foto botones</td>
-                    <td>$35 MXN</td>
-                    <td>Foto botones 100% personalizados con tu diseño o alguno de nuestro catálogo</td>
-                </tr>
-                <tr>
-                    <td>Plantilla etiquetas</td>
-                    <td>$40 MXN</td>
-                    <td>Etiquetas 100% personalizadas con tu diseño o alguno de nuestro catálogo</td>
-                </tr>
-            </tbody>
-        </table>
+
+
+<footer>
+    <div class="footer__container">
+        <p class="footer__text">© 2025 A tu gusto. Todos los derechos reservados.</p>
+        <div class="footer__social">
+            <a href="#" class="footer__link"><img class="icon icon__link" src="img/facebook.svg" alt=""></a>
+            <a href="#" class="footer__link"><img class="icon icon__link" src="img/instagram.svg" alt=""></a>
+        </div>
     </div>
-    <hr>
-    <div class="form" id="form">
-    <h3 class="form__subtitle">Dejanos tus datos para obtener más información!</h3>
-    <form class="form__container">
-        <div class="form__section">
-            <label class="form__label" for="nombre">Nombre:</label>
-            <input class="form__input" type="text" id="nombre" name="nombre" required>
-        </div>
-        <div class="form__section">
-            <label class="form__label" for="gmail">Gmail:</label>
-            <input class="form__input" type="email" id="gmail" name="gmail" pattern=".+@gmail\.com" required>
-        </div>
-        <div class="form__section">
-            <label class="form__label" for="telefono">Número de teléfono:</label>
-            <input class="form__input" type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
-        </div>
-        <div class="form__section">
-            <label class="form__label" for="mensaje">Mensaje:</label>
-            <textarea class="form__input" id="mensaje" name="mensaje" rows="2" required></textarea>
-        </div>
-        <button class="form__button" type="submit">Enviar</button>
-    </form>
-</div>
+</footer>
 
 </body>
 </html>

@@ -44,6 +44,12 @@ body{
     display: flex;
 }
 
+.nav__item:hover{
+    background-color: #549c9c;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
 .nav__link{
     color: #fff;
     text-decoration: none;
@@ -185,6 +191,11 @@ body{
     display: inline-block;
 }
 
+.banner__button:hover{
+    background-color: #303722;
+    transition: background-color 0.3s;
+}
+
 .banner__title{
     font-size: 28px;
     font-weight: bold;
@@ -297,3 +308,64 @@ body{
 .table__title{
     margin-top: 100px;
 }
+/*Footer*/
+footer {
+    background-color: #043434;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+.footer__text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer__social {
+    margin-top: 10px;
+}
+
+.footer__icon{
+    margin: auto 10px
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+    filter: invert(1);
+    transition: filter 0.3s;
+}
+
+.icon__link{
+    margin: auto 10px;
+}
+
+/*login y register cards*/
+.login__container, .register__container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #043434;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.form__button:hover{
+    background-color: #dfffa0;
+    transition: background-color 0.5s;
+}
+
+
+
+.anuncio {
+    margin: 0;
+    font-size: 2.0rem;
+    text-wrap: balance;
+    text-align: center;
+    color: #423d36;
+}
+
